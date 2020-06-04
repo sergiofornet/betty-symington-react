@@ -1,0 +1,27 @@
+.section {
+	position: relative;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100vh - 6em);
+	min-height: calc((var(--vh, 1vh) * 100) - 6em);
+	margin: 0;
+	z-index: 3;
+	padding: 3em 0;
+}
+
+.section > * {
+	margin: 2rem calc(10rem / 16);
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
